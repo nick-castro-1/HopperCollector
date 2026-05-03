@@ -1,0 +1,16 @@
+{
+  "Name": "Hopper Collector",
+  "Author": "mistanervous",
+  "Version": "1.0.0",
+  "Description": "Hoppers automatically collect finished output from adjacent machines and deposit it into an adjacent chest. If no chest has space, the item stays in the machine until there is room.",
+  "UniqueID": "mistanervous.HopperCollector",
+  "EntryDll": "HopperCollector.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [],
+  "Dependencies": [
+    {
+      "UniqueID": "spacechase0.GenericModConfigMenu",
+      "IsRequired": false
+    }
+  ]
+}
